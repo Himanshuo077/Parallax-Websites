@@ -1,0 +1,57 @@
+html,body{
+	border: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100%;
+	line-height: 1.8em;
+}
+.img1{
+	background-image: url(background3.webp);
+	min-height: 100%;
+	
+}
+.img2{
+	background-image: url(background1.jpg);
+	min-height: 400px;
+	
+}
+.img3{
+	background-image: url(thumbnail1.png);
+	min-height: 400px;
+	
+}
+.img1, .img2, .img3{
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.ptext{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	font-size: 40px;
+	vertical-align: middle;
+	text-align: center;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+.textbg{
+	background-color: #313534;
+	color: white;
+	padding: 20px 20px;
+}
+.section{
+	padding: 50px 80px;
+	text-align: center;
+	font-size: 20px;
+}
+.light-section{
+	background-color: #fff;
+	color: gray;
+}
+.dark-section{
+	background-color: #313534;
+	color: gray;
+}
